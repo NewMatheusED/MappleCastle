@@ -127,7 +127,7 @@ header .container ul li:hover::before {
 .chamada1 {
     position: relative;
     top: 35%;
-    z-index: 999;
+    z-index: 998;
     color: #fff;
     font-family: "Stardew Valley";
     font-size: 45px;
@@ -136,9 +136,6 @@ header .container ul li:hover::before {
 
 .chamada1 .container h1:nth-child(2) {
     margin-left: 80px;
-}
-
-section.home {
 }
 
 @media screen and (max-width: 800px) {

@@ -1,7 +1,7 @@
 $(function() {
 
     $('ul.desktop li a, ul.mobile li a').click(function(){
-        $('header .container .menuMobile ul.mobile').slideToggle()
+        $('header .container .menuMobile ul.mobile').slideUp()
 
         var href = $(this).attr('href'); 
 
