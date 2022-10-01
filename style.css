@@ -28,8 +28,13 @@ header {
 
 .upper {
     position: relative;
-    z-index: 999;
+    z-index: 998;
     top: 80%;
+}
+
+.pointer {
+    transform: translate(50%, 25%);
+    animation: pointer 1.5s ease-in-out infinite;
 }
 
 header .container {
@@ -90,6 +95,11 @@ header .container ul li {
     font-size: 22px;
 }
 
+header .container ul li a {
+    text-decoration: none;
+    color: rgba(221,221,221);
+}
+
 header .container ul.desktop li:before {
     content: '';
     display: inline-block;
@@ -106,7 +116,7 @@ header .container ul li:hover::before {
 
 .mainImg {
     position: fixed;
-    z-index: 990;
+    z-index: 997;
     background-image: url(media/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,7 +126,7 @@ header .container ul li:hover::before {
 
 .chamada1 {
     position: relative;
-    top: 40%;
+    top: 35%;
     z-index: 999;
     color: #fff;
     font-family: "Stardew Valley";
@@ -124,8 +134,12 @@ header .container ul li:hover::before {
 
 }
 
-.chamada1 .container h1:last-child {
+.chamada1 .container h1:nth-child(2) {
     margin-left: 80px;
+}
+
+section.home {
+    height: 10000px;
 }
 
 @media screen and (max-width: 800px) {
@@ -156,5 +170,16 @@ header .container ul li:hover::before {
 
     .mainImg {
         background-position: center center;
+    }
+}
+
+@keyframes pointer {
+    from {
+        transform: translate(50%, 25%);
+        opacity: 1;
+    }
+    to {
+        transform: translate(50%, 0%);
+        opacity: 0;
     }
 }
