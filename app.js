@@ -1,6 +1,8 @@
 $(function() {
 
     $('ul.desktop li a, ul.mobile li a').click(function(){
+        $('header .container .menuMobile ul.mobile').slideToggle()
+
         var href = $(this).attr('href'); 
 
         $('html,body').animate({
@@ -9,6 +11,7 @@ $(function() {
     });
 
     $('.logo a').click(function(){
+        $('header .container .menuMobile ul.mobile').slideUp();
 
         $('html,body').animate({
             scrollTop: 0
