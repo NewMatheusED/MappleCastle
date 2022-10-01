@@ -10,4 +10,9 @@ $(function() {
             $('header').removeClass('show')
         }
     })
+
+    $('header .container .menuMobile svg').click(() => {
+        $('header .container .menuMobile ul.mobile').slideToggle()
+    })
 })
+
