@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Stardew';
+    src: url('media/Stardew_Valley.otf'), url('media/Stardew_Valley.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -91,7 +98,7 @@ header svg {
 
 header .container ul li {
     cursor: pointer;
-    font-family: "Stardew Valley";
+    font-family: "Stardew";
     font-size: 22px;
 }
 
@@ -129,7 +136,7 @@ header .container ul li:hover::before {
     top: 35%;
     z-index: 998;
     color: #fff;
-    font-family: "Stardew Valley";
+    font-family: "Stardew";
     font-size: 45px;
 
 }
