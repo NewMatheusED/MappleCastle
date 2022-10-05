@@ -173,7 +173,7 @@ header .container ul li:hover::before {
     color: rgb(32, 33, 34);
     padding: 10px 5px;
     text-align: left;
-    line-height: 22px
+    line-height: 22px;
 }
 
 @media screen and (max-width: 800px) {
