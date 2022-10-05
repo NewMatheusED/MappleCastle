@@ -1,6 +1,9 @@
 $(function() {
 
     $(document).ready(function() {
+
+        AOS.init();
+
         $('.loader').css('display', 'none')
 
         $(window).on('scroll', () => {
