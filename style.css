@@ -1,6 +1,9 @@
 @font-face {
     font-family: 'Stardew';
-    src: url('media/Stardew_Valley.otf'), url('media/Stardew_Valley.ttf') format('truetype');
+    src: url('media/stardew_valley-webfont.woff2') format('woff2'),
+         url('media/stardew_valley-webfont.woff') format('woff'),
+         url('media/stardew_valley-webfont.ttf') format('truetype'),
+         url('media/stardew_valley-webfont.svg#stardew_valleyregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
