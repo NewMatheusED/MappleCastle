@@ -1,5 +1,9 @@
 $(function() {
 
+    $(document).ready(() => {
+        $('.loader').css('display', 'none')
+    })
+
     $('ul.desktop li a, ul.mobile li a').click(function(){
         $('header .container .menuMobile ul.mobile').slideUp()
 
