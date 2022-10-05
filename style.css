@@ -44,6 +44,13 @@ header {
     animation: pointer 1.5s ease-in-out infinite;
 }
 
+.backplate {
+    width: 95%;
+    height: 100%;
+    background-color: rgba(209,248,255,0.67);
+    margin: 0 auto;
+}
+
 header .container {
     display: flex;
     align-items: center;
@@ -143,6 +150,20 @@ header .container ul li:hover::before {
 
 .chamada1 .container h1:nth-child(2) {
     margin-left: 80px;
+}
+
+.box {
+    padding: 10px 0 5px 0;
+}
+
+.box h1 {
+    background-color: #03A007;
+    border: 1px solid #007448;
+    margin-bottom: 3px;
+}
+
+.box p {
+    background-color: rgba(255,255,255,0.58);
 }
 
 @media screen and (max-width: 800px) {
