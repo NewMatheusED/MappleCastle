@@ -14,8 +14,12 @@ $(function() {
     
             if(coords > 0) {
                 $('header').addClass('show')
+                $('header .container ul li a').css({'color': 'rgb(4,4,4)'})
+                $('body.dark header .container ul li a').css({'color': 'rgb(221,221,221)'})
             }else{
                 $('header').removeClass('show')
+                $('header .container ul li a').css({'color': 'rgb(221,221,221)'})
+                $('body.dark header .container ul li a').css({'color': 'rgb(221,221,221)'})
             }
         })
     })
@@ -57,6 +61,21 @@ $(function() {
 
     $('header .container .menuMobile svg').click(function() {
         $('header .container .menuMobile ul.mobile').slideToggle()
+    })
+
+    $('.highContrast i').click(function() {
+        $('body').toggleClass('dark')
+
+        let coords = $(window).scrollTop()
+
+        if(coords > 0) {
+            $('header .container ul li a').css({'color': 'rgb(4,4,4)'})
+            $('body.dark header .container ul li a').css({'color': 'rgb(221,221,221)'})
+        }else{
+            $('header .container ul li a').css({'color': 'rgb(221,221,221)'})
+            $('body.dark header .container ul li a').css({'color': 'rgb(221,221,221)'})
+        }
+
     })
 })
 
