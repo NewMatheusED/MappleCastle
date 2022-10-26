@@ -19,6 +19,7 @@ $(function() {
             }else{
                 $('header').removeClass('show')
                 $('header .container ul li a').css({'color': 'rgb(221,221,221)'})
+                $('header .container ul.mobile li a').css({'color': 'rgb(4,4,4)'})
                 $('body.dark header .container ul li a').css({'color': 'rgb(221,221,221)'})
                 
             }
@@ -74,9 +75,9 @@ $(function() {
             $('body.dark header .container ul li a').css({'color': 'rgb(221,221,221)'})
         }else{
             $('header .container ul li a').css({'color': 'rgb(221,221,221)'})
-            $('header .container ul li.mobile a').css({'color': 'rgb(221,221,221)'})
+            $('header .container ul.mobile li a').css({'color': 'rgb(4,4,4)'})
             $('body.dark header .container ul li a').css({'color': 'rgb(221,221,221)'})
-            $('body.dark header .container ul.mobile li a').css({'color': 'rgb(4,4,4)'})
+            $('body.dark header .container ul.mobile li a').css({'color': 'rgb(221,221,221)'})
         }
 
     })
