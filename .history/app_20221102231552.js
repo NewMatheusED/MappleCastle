@@ -33,7 +33,7 @@ $(function() {
             }
         }
 
-        //para haver a adaptação em scroll e em loading da página
+        //para haver a adaptação 
         adaptColor();
         $(window).on('scroll', () => {
             adaptColor();

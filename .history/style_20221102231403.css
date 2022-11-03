@@ -230,6 +230,8 @@ header .container ul li {
     cursor: pointer;
     font-family: "Stardew";
     font-size: var(--menuSize);
+    position: relative;
+    bottom: -15px;
 }
 
 header .container ul.desktop li {

@@ -230,9 +230,6 @@ header .container ul li {
     cursor: pointer;
     font-family: "Stardew";
     font-size: var(--menuSize);
-}
-
-header .container ul.desktop li {
     position: relative;
     bottom: -15px;
 }
@@ -275,7 +272,7 @@ body.dark header .container ul li:hover span {
     background-image: url(media/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(80%);
+    filter: ;
     width: 100vw;
     height: 100vh;
 }
