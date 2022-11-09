@@ -275,7 +275,7 @@ body.dark header .container ul li:hover span {
     background-image: url(media/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(70%);
+    filter: brightness(80%);
     width: 100vw;
     height: 100vh;
 }
